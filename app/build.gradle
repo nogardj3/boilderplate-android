@@ -9,7 +9,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.yhjoo.app_boilerplate"
+        applicationId "com.yhjoo.android_boilerplate"
         minSdk 21
         targetSdk 31
         versionCode 1

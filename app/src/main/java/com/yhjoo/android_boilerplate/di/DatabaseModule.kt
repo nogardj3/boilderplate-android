@@ -1,8 +1,8 @@
-package com.yhjoo.app_boilerplate.di
+package com.yhjoo.android_boilerplate.di
 
 import android.content.Context
-import com.yhjoo.app_boilerplate.data.SampleDatabase
-import com.yhjoo.app_boilerplate.data.dao.SampleDao
+import com.yhjoo.android_boilerplate.data.SampleDatabase
+import com.yhjoo.android_boilerplate.data.dao.SampleDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

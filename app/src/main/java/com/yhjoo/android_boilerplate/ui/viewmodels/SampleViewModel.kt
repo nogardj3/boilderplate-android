@@ -1,9 +1,9 @@
-package com.yhjoo.app_boilerplate.ui.viewmodels
+package com.yhjoo.android_boilerplate.ui.viewmodels
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.yhjoo.app_boilerplate.data.repository.SampleRepository
+import com.yhjoo.android_boilerplate.data.repository.SampleRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
