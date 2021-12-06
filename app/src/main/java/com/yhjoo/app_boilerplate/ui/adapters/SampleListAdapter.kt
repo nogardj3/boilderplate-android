@@ -1,8 +1,11 @@
 package com.yhjoo.app_boilerplate.ui.adapters
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -52,3 +55,21 @@ class SampleListAdapter() :
         }
     }
 }
+
+//class RecipeDetailViewModelFactory(
+//    private val recipeRepository: RecipeRepository,
+//    private val reviewRepository: ReviewRepository,
+//    private val intent: Intent
+//) :
+//    ViewModelProvider.Factory {
+//    override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+//        if (modelClass.isAssignableFrom(RecipeDetailViewModel::class.java)) {
+//            return RecipeDetailViewModel(
+//                recipeRepository,
+//                reviewRepository,
+//                intent
+//            ) as T
+//        }
+//        throw IllegalArgumentException("Unknown View Model class")
+//    }
+//}
