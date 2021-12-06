@@ -1,13 +1,12 @@
-package com.yhjoo.app_boilerplate.ui
+package com.yhjoo.android_boilerplate.ui
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.yhjoo.app_boilerplate.App
-import com.yhjoo.app_boilerplate.R
-import com.yhjoo.app_boilerplate.databinding.ActivityMainBinding
-import com.yhjoo.app_boilerplate.ui.viewmodels.SampleViewModel
+import com.yhjoo.android_boilerplate.R
+import com.yhjoo.android_boilerplate.databinding.ActivityMainBinding
+import com.yhjoo.android_boilerplate.ui.viewmodels.SampleViewModel
 
 class MainActivity : AppCompatActivity() {
     private val binding: ActivityMainBinding by lazy {
