@@ -1,4 +1,4 @@
-package com.yhjoo.app_boilerplate
+package com.yhjoo.android_boilerplate
 
 import org.junit.Test
 

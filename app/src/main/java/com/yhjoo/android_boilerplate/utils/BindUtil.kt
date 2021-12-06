@@ -1,4 +1,4 @@
-package com.yhjoo.app_boilerplate.utils
+package com.yhjoo.android_boilerplate.utils
 
 import android.view.View
 import androidx.appcompat.widget.AppCompatTextView

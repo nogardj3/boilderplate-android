@@ -1,4 +1,4 @@
-package com.yhjoo.app_boilerplate.data
+package com.yhjoo.android_boilerplate.data
 
 import android.content.Context
 import okhttp3.OkHttpClient

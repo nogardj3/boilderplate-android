@@ -1,4 +1,4 @@
-package com.yhjoo.app_boilerplate.data
+package com.yhjoo.android_boilerplate.data
 
 data class SampleData (
     val sampleOne: String,
