@@ -1,4 +1,4 @@
-package com.yhjoo.android_boilerplate.data.entity
+package com.yhjoo.boilerplate.data.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

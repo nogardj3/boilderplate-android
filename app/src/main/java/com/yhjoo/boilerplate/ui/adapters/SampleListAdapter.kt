@@ -1,4 +1,4 @@
-package com.yhjoo.android_boilerplate.ui.adapters
+package com.yhjoo.boilerplate.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,9 +6,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.yhjoo.android_boilerplate.R
-import com.yhjoo.android_boilerplate.data.SampleData
-import com.yhjoo.android_boilerplate.databinding.SampleItemBinding
+import com.yhjoo.boilerplate.R
+import com.yhjoo.boilerplate.data.SampleData
+import com.yhjoo.boilerplate.databinding.SampleItemBinding
 
 class SampleListAdapter() :
     ListAdapter<SampleData, SampleListAdapter.SampleListViewHolder>(SampleListComparator()) {

@@ -1,11 +1,11 @@
-package com.yhjoo.android_boilerplate.data
+package com.yhjoo.boilerplate.data
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.yhjoo.android_boilerplate.data.dao.SampleDao
-import com.yhjoo.android_boilerplate.data.entity.SampleEntity
+import com.yhjoo.boilerplate.data.dao.SampleDao
+import com.yhjoo.boilerplate.data.entity.SampleEntity
 
 @Database(entities = [SampleEntity::class], version = 1, exportSchema = false)
 abstract class SampleDatabase : RoomDatabase() {

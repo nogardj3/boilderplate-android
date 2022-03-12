@@ -1,7 +1,7 @@
-package com.yhjoo.android_boilerplate.di
+package com.yhjoo.boilerplate.di
 
 import android.content.Context
-import com.yhjoo.android_boilerplate.data.RetrofitServices
+import com.yhjoo.boilerplate.data.RetrofitServices
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

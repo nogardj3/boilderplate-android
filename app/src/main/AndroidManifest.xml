@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yhjoo.android_boilerplate">
+    package="com.yhjoo.boilerplate">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.android_boilerplate">
+        android:theme="@style/Theme.boilerplate">
         <activity
-            android:name="com.yhjoo.android_boilerplate.ui.MainActivity"
+            android:name="com.yhjoo.boilerplate.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

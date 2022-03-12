@@ -1,9 +1,9 @@
-package com.yhjoo.android_boilerplate.data.repository
+package com.yhjoo.boilerplate.data.repository
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import com.google.gson.JsonObject
-import com.yhjoo.android_boilerplate.data.RetrofitServices
+import com.yhjoo.boilerplate.data.RetrofitServices
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

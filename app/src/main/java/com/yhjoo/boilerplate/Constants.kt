@@ -1,4 +1,4 @@
-package com.yhjoo.android_boilerplate
+package com.yhjoo.boilerplate
 
 object Constants {
     val ServerResult = mapOf(

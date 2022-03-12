@@ -1,7 +1,7 @@
-package com.yhjoo.android_boilerplate.data.dao
+package com.yhjoo.boilerplate.data.dao
 
 import androidx.room.*
-import com.yhjoo.android_boilerplate.data.entity.SampleEntity
+import com.yhjoo.boilerplate.data.entity.SampleEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
