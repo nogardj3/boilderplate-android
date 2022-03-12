@@ -1,8 +1,11 @@
-package com.yhjoo.boilerplate.ui.viewmodels
+package com.yhjoo.android_boilerplate.ui.viewmodels
 
 import android.content.Context
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.yhjoo.boilerplate.data.SampleData
 import com.yhjoo.boilerplate.data.repository.SampleRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -20,8 +23,13 @@ class SampleViewModel @Inject constructor(
     private var _eventResult = MutableSharedFlow<Events>()
     val eventResult = _eventResult.asSharedFlow()
 
+    private var _sampleResult = MutableLiveData<SampleData>()
+    val sampleResult: LiveData<SampleData>
+        get() = _sampleResult
+
     init {
         viewModelScope.launch(Dispatchers.IO) {
+
         }
     }
 
