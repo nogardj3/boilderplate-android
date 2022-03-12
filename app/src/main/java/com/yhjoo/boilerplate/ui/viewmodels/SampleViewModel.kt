@@ -1,4 +1,4 @@
-package com.yhjoo.android_boilerplate.ui.viewmodels
+package com.yhjoo.boilerplate.ui.viewmodels
 
 import android.content.Context
 import androidx.lifecycle.LiveData
