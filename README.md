@@ -1,4 +1,4 @@
-# boilerplate_android
+# boilerplate-android
 
 Android Boilerplate Application
 
